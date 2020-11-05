@@ -1,0 +1,61 @@
+.container {
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+}
+
+.Big {
+  grid-row: 1 / span 2;
+}
+
+.Header--img {
+  background-color: red;
+}
+
+.Newscards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 150px 150px;
+  gap: 10px;
+}
+
+.Newscards--img {
+  background-color: yellow;
+}
+
+.Stockmarket {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px;
+  gap: 10px;
+}
+
+.Stockmarket--info {
+  background-color: green;
+}
+
+.Articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 400px);
+  gap: 10px;
+}
+
+.Articles--info {
+  background-color: purple;
+}
+
+.Lnews {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+}
+
+.Lnews--info {
+  background-color: peru;
+}

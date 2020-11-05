@@ -1,8 +1,42 @@
+/*  Nav styling */
 nav {
   height: 100px;
   background-color: green;
   margin-bottom: 10px;
 }
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar a {
+  margin: 5px;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-navbar div:last-of-type {
+  border-left: gray 1px solid;
+}
+
+.main-navbar i {
+  border-left: 1px solid gray;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+/*  Start of first section */
 
 .Header {
   display: grid;
@@ -258,4 +292,14 @@ footer {
   margin-top: 10px;
   background-color: yellow;
   height: 200px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons ul li {
+  display: inline-block;
 }

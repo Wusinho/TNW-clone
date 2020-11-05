@@ -1,6 +1,12 @@
 .container {
 }
 
+nav {
+  height: 100px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
 .Header {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -14,6 +20,7 @@
 
 .Header--img {
   background-color: red;
+  padding: 20px;
 }
 
 .Newscards {
@@ -58,4 +65,90 @@
 
 .Lnews--info {
   background-color: peru;
+}
+
+/* Start on the first box */
+
+/* Big modifier */
+.Big {
+  background-image: url("../bg-header-img-big.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Big h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.Big span {
+  font-size: 15px;
+  float: right;
+  color: black;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.Big h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 80px;
+}
+
+.Big p:first-of-type {
+  font-size: 40px;
+  color: red;
+}
+
+.Big p {
+  color: gray;
+}
+
+/* Small modifier */
+
+.Small {
+  position: relative;
+}
+
+.Small h1 {
+  position: absolute;
+  bottom: 5px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.Small article {
+  position: absolute;
+  bottom: 5px;
+}
+
+.Small article h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 80px;
+}
+
+.Small article p:first-of-type {
+  font-size: 20px;
+  color: ye;
+}
+
+.Small article p {
+  color: white;
+}
+
+.--first-img {
+  background-image: url("../small-first-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.--second-img {
+  background-image: url("../small-second-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

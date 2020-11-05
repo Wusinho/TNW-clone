@@ -1,3 +1,9 @@
+nav {
+  height: 100px;
+  background-color: green;
+  margin-bottom: 10px;
+}
+
 .Header {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -36,7 +42,7 @@
 .Articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 400px);
+  grid-template-rows: repeat(3, auto);
   gap: 10px;
 }
 
@@ -47,7 +53,7 @@
 .Lnews {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px 200px;
+  grid-template-rows: auto auto;
   gap: 10px;
 }
 
@@ -185,4 +191,71 @@ img {
 }
 .Stockmarket--info p {
   background-color: #fffaf8;
+}
+
+/* Start on Articles section */
+
+.Articles--info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* justify-content: space-between; */
+}
+
+.Arcticle-cards-img {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  margin: 5px 5px 5px 0;
+}
+
+.Arcticle-cards-img article {
+  height: 100%;
+  background-image: url("../images/small-first-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Arcticle-cards-img article h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 80px;
+}
+
+.Arcticle-cards-img article p:first-of-type {
+  font-size: 20px;
+  color: ye;
+}
+
+.Arcticle-cards-img article p {
+  color: white;
+}
+
+.article-card-latest {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.article-card-latest img {
+  width: 100px;
+  height: 100px;
+}
+
+.article-card-list {
+  width: 90%;
+}
+
+.article-card-list ul li {
+  border-bottom: 1px solid gray;
+}
+
+/* Start of latest deals section */
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+  background-color: yellow;
+  height: 200px;
 }

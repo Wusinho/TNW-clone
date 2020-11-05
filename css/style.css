@@ -1,5 +1,9 @@
 .container {
-  background-color: black;
+  background-color: white;
+}
+
+body > * {
+  font-family: "Roboto", sans-serif;
 }
 
 /*  Nav styling */
@@ -58,23 +62,65 @@ nav {
   padding: 20px;
 }
 
+.title1,
+.title2 {
+  font-size: 28px;
+  color: #ff4422;
+  font-weight: bold;
+  margin: 50px 0 20px 0;
+}
+
+.title1 h2 {
+  display: inline-block;
+}
+
+.title1:hover,
+.title2 h2:hover,
+.title2 ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .Newscards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
   grid-template-rows: auto auto;
   gap: 10px;
 }
 
-.Newscards--img {
-  background-color: yellow;
+.Newscards--img h2 {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Newscards--img h2:hover {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: #ffd0c8;
+}
+
+.Newscards--img h3 {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.Newscards--img h3 a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.Newscards--img h3 a:hover {
+  color: rgb(61, 61, 61);
 }
 
 .Stockmarket {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto auto;
   gap: 10px;
-  position: relative;
 }
 
 .Articles {
@@ -197,40 +243,76 @@ img {
 
 .title2 ul li {
   display: inline-block;
+  font-size: 20px;
 }
 .title2 ul li:nth-of-type(-n + 2) {
   border-right: 1px solid red;
-  margin-right: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .Stockmarket--info img {
   width: 60px;
   height: 60px;
-  position: absolute;
-  top: 10px;
-  margin-left: 10px;
-}
-
-.Stockmarket--info h2,
-.Stockmarket--info h3,
-.Stockmarket--info h4 {
-  text-align: center;
-  padding: 10px;
+  float: left;
+  margin: 10px 10px 30px 10px;
 }
 
 .Stockmarket--info h2 {
   background-color: #ff4422;
+  color: white;
+  font-weight: bold;
+  padding: 15px 0;
 }
 
-.Stockmarket--info h3,
-.Stockmarket--info h4 {
+.Stockmarket__details {
   background-color: #ffebe8;
+  padding: 10px 0;
 }
+
+.Stockmarket__details h3 {
+  font-weight: bold;
+}
+
+.Stockmarket__details h4 {
+  color: #807674;
+  font-size: 12px;
+}
+
+.Stockmarket--info {
+  box-shadow: 0px 0px 2px 0px rgba(224, 224, 224, 1);
+}
+
 .Stockmarket--info p {
   background-color: #fffaf8;
 }
 
+.Stockmarket--info i,
+.Stockmarket--info h4 {
+  display: inline-block;
+}
+.Stockmarket--info h4 {
+  color: #555;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.Stockmarket--info h4:hover {
+  color: black;
+}
+
+.Stockmarket__detailsBot {
+  padding: 25px;
+  border-bottom: 1px solid #ffd0c8;
+}
+
+.Stockmarket--info h5 {
+  padding: 25px;
+  color: #555;
+  font-size: 13px;
+  word-spacing: 5px;
+  line-height: 20px;
+}
 /* Start on Articles section */
 
 .Articles--info {

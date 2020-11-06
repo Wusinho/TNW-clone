@@ -10,13 +10,10 @@ nav a {
 }
 
 .main-navbar {
+  display: flex;
   height: 100%;
   margin: 0;
 }
-/* 
-.main-navbar:hover {
-  cursor: pointer;
-} */
 
 .main-navbar .main-logo {
   height: 50px;
@@ -31,8 +28,23 @@ nav a {
 
 .main-navbar .main-logo:hover {
   cursor: pointer;
-  background-color: red;
+  background-image: url("../images/bg-logo-mobile.jpg");
 }
+
+.main-navbar .search-icon {
+  width: 100px;
+}
+
+.search-icon .fa-bars {
+  display: inline;
+  color: #ff4422;
+}
+
+.search-icon .fa-bars:hover {
+  color: #ff4422;
+}
+
+/* Start on first section */
 
 .Header {
   display: block;

@@ -388,14 +388,11 @@ nav {
   box-shadow: 0px 0px 2px 0px rgba(224, 224, 224, 1);
 }
 
-.Stockmarket--info p {
-  background-color: #fffaf8;
-}
-
 .Stockmarket--info i,
 .Stockmarket--info h4 {
   display: inline-block;
 }
+
 .Stockmarket--info h4 {
   color: #555;
   cursor: pointer;
@@ -410,6 +407,11 @@ nav {
 .Stockmarket__detailsBot {
   padding: 25px;
   border-bottom: 1px solid #ffd0c8;
+}
+
+.Stockmarket--info h5,
+.Stockmarket__detailsBot {
+  background-color: #fffaf8;
 }
 
 .Stockmarket--info h5 {
@@ -488,11 +490,11 @@ nav {
 }
 
 .Articles--cards__latest {
-  margin: 5px;
   display: flex;
   align-items: center;
   background-color: #fff4f1;
   color: #ff4422;
+  padding-left: 15px;
 }
 
 .Articles--cards__latest figcaption h1 {

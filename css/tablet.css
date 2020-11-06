@@ -1,3 +1,32 @@
 .container {
-  background-color: green;
+  background-color: white;
+}
+
+.Newscards {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.title2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Stockmarket {
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+}
+
+.Stockmarket--info:last-child {
+  display: none;
+}
+
+.Articles {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+}
+
+.Lnews {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
 }

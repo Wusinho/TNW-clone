@@ -1,3 +1,39 @@
 .container {
+  background-color: yellow;
+}
+
+nav {
+  height: 50px;
+}
+.top-bar {
+  display: none;
+}
+
+nav a {
+  display: none;
+}
+
+.main-navbar {
+  height: 100%;
+  margin: 0;
+}
+/* 
+.main-navbar:hover {
+  cursor: pointer;
+} */
+
+.main-navbar .main-logo {
+  height: 50px;
+  width: 100px;
+  visibility: visible;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-navbar .main-logo:hover {
+  cursor: pointer;
   background-color: red;
 }

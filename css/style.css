@@ -11,6 +11,7 @@ i:hover {
 }
 
 /*  Nav styling */
+
 nav {
   height: 80px;
   /* box-shadow: 2px 2px 0px 0px rgba(168, 168, 168, 1); */
@@ -59,6 +60,9 @@ nav {
   padding: 0 10px;
 }
 
+.main-navbar .main-logo {
+  visibility: hidden;
+}
 .main-navbar a {
   align-items: center;
   color: gray;
@@ -145,13 +149,9 @@ nav {
 
 .Lnews {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 270px);
   grid-template-rows: auto auto;
   gap: 10px;
-}
-
-.Lnews--info {
-  background-color: peru;
 }
 
 /* Start on the first box */
@@ -387,6 +387,59 @@ nav {
 
 /* Start of latest deals section */
 
+.last-deals-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.last-deals-header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.last-deals-header a:hover {
+  color: black;
+}
+
+.last-deals-header a:first-of-type {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Lnews--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.Lnews--info img {
+  height: 270px;
+}
+
+.Lnews--info a {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Lnews--info a:hover {
+  text-decoration: underline;
+  color: #f42;
+}
+
+.Lnews--info p {
+  color: gray;
+}
+
+.Lnews--info p small {
+  text-decoration: line-through;
+}
+
 /* Footer */
 
 footer {
@@ -402,13 +455,14 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #131313;
-  height: 60%;
+  height: 80%;
 }
 
 .social-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 .social-icons ul li {
@@ -446,15 +500,28 @@ footer {
 .footer-links ul li a {
   color: #333333;
   text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-links ul li a:hover {
+  color: white;
 }
 
 .last-footer {
   background-color: #000000;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 40%;
   padding: 10px;
 }
 
 .last-footer p {
+  color: gray;
+  font-size: 13px;
+}
+
+.last-footer p a {
+  text-decoration: none;
   color: white;
 }

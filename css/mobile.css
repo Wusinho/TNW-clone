@@ -67,3 +67,64 @@ nav a {
   height: 200px;
   margin: 10px 0;
 }
+
+/* Start on 4th section */
+
+.Articles {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, auto);
+}
+
+.Articles--cards__latest {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff4f1;
+  color: #ff4422;
+  padding-left: 15px;
+}
+
+.Articles--cards__img {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Articles--cards__img article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Felonstonks.jpg&signature=0c58a6b9e1fc0f1ae43f4735b89017fc");
+  background-size: cover;
+}
+
+/* Start on the last section */
+
+.Lnews {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+}
+
+/* .Lnews--info {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+} */
+
+.Lnews--info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  /* grid-template-rows: repeat(8, auto); */
+}
+
+.Lnews--info img {
+  width: 60px;
+  height: 60px;
+}
+
+.Lnews--info div {
+  margin-left: 10px;
+}

@@ -37,3 +37,33 @@ nav a {
   cursor: pointer;
   background-color: red;
 }
+
+.Header {
+  display: block;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 200px); */
+  gap: 10px;
+  padding: 10px;
+  background-color: #ededed;
+}
+
+.Big {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.Big h1,
+.Big h2 {
+  display: none;
+}
+
+.Big p:first-of-type {
+  font-size: 25px;
+}
+
+.Big,
+.Small {
+  height: 200px;
+  margin: 10px 0;
+}

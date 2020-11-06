@@ -131,7 +131,7 @@ nav {
 }
 
 .Articles--info {
-  background-color: purple;
+  /* background-color: purple; */
 }
 
 .Lnews {
@@ -322,52 +322,118 @@ img {
   /* justify-content: space-between; */
 }
 
-.Arcticle-cards-img {
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-  margin: 5px 5px 5px 0;
+.Articles--cards__img h1 {
+  margin: 15px 0;
+  font-size: 28px;
+  color: #ff4422;
+  font-weight: bold;
 }
 
-.Arcticle-cards-img article {
+.Articles--cards__img h1:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.Articles--cards__img article {
+  padding: 15px;
+}
+
+.Articles--cards__img article {
   height: 100%;
-  background-image: url("../images/small-first-img.jpg");
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F06%2Felonstonks.jpg&signature=0c58a6b9e1fc0f1ae43f4735b89017fc");
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
-.Arcticle-cards-img article h2 {
-  font-size: 20px;
-  color: white;
+.Articles--cards__img article h2 {
+  font-size: 13px;
+  color: #e9e9e9;
   margin-top: 80px;
 }
 
-.Arcticle-cards-img article p:first-of-type {
+.Articles--cards__img article p:first-of-type {
   font-size: 20px;
-  color: ye;
+  font-weight: bold;
 }
 
-.Arcticle-cards-img article p {
+.Articles--cards__img article p:first-of-type:hover {
+  text-decoration: underline;
+  text-decoration-color: #aaaaaa;
+  cursor: pointer;
+}
+
+.Articles--cards__img article p {
   color: white;
 }
 
-.article-card-latest {
+.Articles--cards__img article p a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.Articles--cards__img article p span {
+  color: #aaaaaa;
+  font-size: 11px;
+}
+
+.Articles--cards__img article p a:hover {
+  color: white;
+}
+
+.Articles--cards__latest {
   margin: 5px;
   display: flex;
   align-items: center;
+  background-color: #fff4f1;
+  color: #ff4422;
 }
 
-.article-card-latest img {
+.Articles--cards__latest figcaption h1 {
+  font-size: 12px;
+}
+.Articles--cards__latest figcaption p {
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Articles--cards__latest figcaption p:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #ffd1c9;
+}
+
+.Articles--cards__latest img {
   width: 100px;
   height: 100px;
 }
-
-.article-card-list {
-  width: 90%;
+.Articles--cards__list ul li {
+  display: flex;
 }
 
-.article-card-list ul li {
-  border-bottom: 1px solid gray;
+.Articles--cards__list ul li {
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+  padding: 10px 0;
+  color: #555;
+}
+
+.Articles--cards__list ul li div {
+  margin-left: 5px;
+}
+
+.Articles--cards__list ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+ul li::before {
+  list-style: outside;
+  content: "\2022";
+  color: red;
+  display: inline;
+  font-weight: bold;
+  /* margin: 50px; */
 }
 
 /* Start of latest deals section */

@@ -1,6 +1,7 @@
 nav {
   height: 50px;
 }
+
 .top-bar {
   display: none;
 }
@@ -37,11 +38,11 @@ nav a {
 
 .search-icon .fa-bars {
   display: inline;
-  color: #ff4422;
+  color: #f42;
 }
 
 .search-icon .fa-bars:hover {
-  color: #ff4422;
+  color: #f42;
 }
 
 /* Start on first section */
@@ -114,6 +115,7 @@ nav a {
 .Stockmarket--info {
   margin: 15px 0;
 }
+
 /* Start on 4th section */
 
 .Articles {

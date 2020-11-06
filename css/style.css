@@ -501,7 +501,7 @@ nav {
   cursor: pointer;
 }
 
-ul li::before {
+.Articles--cards__list ul li::before {
   list-style: outside;
   content: "\2022";
   color: red;

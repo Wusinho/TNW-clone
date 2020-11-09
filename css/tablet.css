@@ -46,6 +46,7 @@
   display: block;
   font-size: 20px;
 }
+
 .title2 .title2-ul li:nth-of-type(-n + 2) {
   border: none;
 }

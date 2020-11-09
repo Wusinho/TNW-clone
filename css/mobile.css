@@ -98,13 +98,13 @@ nav a {
   display: block;
 }
 
-.title2 ul li {
+.title2 .title2-ul li {
   display: block;
-  font-size: 14px;
-  margin: 10px;
+  font-size: 20px;
 }
 
-.title2 ul li:nth-of-type(-n + 2) {
+.title2 .title2-ul li:nth-of-type(-n + 2) {
+  padding-right: 10px;
   border: none;
 }
 

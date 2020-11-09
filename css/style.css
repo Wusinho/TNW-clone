@@ -610,8 +610,7 @@ nav {
 
 footer {
   margin-top: 10px;
-  background-color: yellow;
-  height: 200px;
+  width: 100%;
 }
 
 /* First div - footer */
@@ -691,6 +690,10 @@ footer {
   text-decoration: none;
   color: white;
 }
-.footer-p span {
+.footer-p a {
   color: white;
+}
+
+.footer-p img {
+  width: 50px;
 }

@@ -214,8 +214,7 @@ nav {
 /* Big modifier */
 .Big {
   grid-row: 1 / span 2;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       185deg,
       rgba(241, 6, 30, 0.7371323529411764) 0%,
       rgba(17, 16, 16, 1) 82%
@@ -347,8 +346,7 @@ nav {
 }
 
 .--second-img {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.1) 0%,
       rgba(17, 16, 16, 1) 100%
@@ -666,7 +664,7 @@ footer {
 }
 
 .footer-a {
-  color: #333;
+  color: #979797;
   text-decoration: none;
   font-size: 12px;
 }
@@ -691,5 +689,8 @@ footer {
 
 .last-footer p .footer-a {
   text-decoration: none;
+  color: white;
+}
+.footer-p span {
   color: white;
 }

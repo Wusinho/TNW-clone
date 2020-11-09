@@ -104,7 +104,6 @@ nav a {
 }
 
 .title2 .title2-ul li:nth-of-type(-n + 2) {
-  padding-right: 10px;
   border: none;
 }
 

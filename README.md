@@ -28,7 +28,7 @@ In this project we made sure to consider to :
 
 ## Live Demo
 
-[Live Demo Link](https://wusinho.github.io/Smashing-HeatMap/)
+[Live Demo Link](https://wusinho.github.io/TNW-clone/)
 
 😎 **Ahmed Amin**
 
